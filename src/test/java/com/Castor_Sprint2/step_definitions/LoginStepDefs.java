@@ -2,7 +2,11 @@ package com.Castor_Sprint2.step_definitions;
 
 import com.Castor_Sprint2.pages.LoginPage;
 import com.Castor_Sprint2.utilities.ConfigurationReader;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 public class LoginStepDefs {
 
 
@@ -36,9 +40,6 @@ public class LoginStepDefs {
       LoginPage loginPage=new LoginPage();
       loginPage.login(username,password);
     }
-
-
-
 
 
 }
